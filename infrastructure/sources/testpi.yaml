@@ -1,10 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: autochrome-api
+  name: testpi
 spec:
   interval: 5m
-  url: ssh://git@github.com:stefanprodan/podinfo.git
+  url: ssh://git@github.com/stefanprodan/podinfo
   ref:
     branch: main
   ignore: |

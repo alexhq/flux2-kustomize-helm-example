@@ -6,3 +6,4 @@ resources:
   - podinfo.yaml
   - jetstack.yaml
   - autochrome-api.yaml
+  - testpi.yaml

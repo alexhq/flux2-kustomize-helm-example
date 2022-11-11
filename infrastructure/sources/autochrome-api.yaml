@@ -4,6 +4,7 @@ metadata:
   name: autochrome-api
 spec:
   interval: 5m
+  gitImplementation: libgit2
   url: ssh://git@github.com/391agency/autochrome-api
   secretRef:
     name: autochrome-api-auth
